@@ -9,7 +9,9 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class TestCollectionDetailPojo {
-    private String details1;
-    private String details2;
+public class StudentDetailPojo {
+    private String _id;
+    private String ambition;
+    private String favoriteSubject;
+    private String lastGrade;
 }
